@@ -36,22 +36,25 @@
   <article class="doc">
     <h1 data-i18n="pp.title">Privacy policy</h1>
     <p class="meta" data-i18n="pp.updated">Last updated: 12 October 2026</p>
-    <p data-i18n-html="pp.intro">This policy explains how the Capsify Android app ("the app") and this website handle information. Capsify is published by Capsify ("we", "us"). Contact: <a href="mailto:capsifyapp@gmail.com">capsifyapp@gmail.com</a>.</p>
+    <p data-i18n-html="pp.intro">This policy explains how the Capsify Android app ("the app") and this website handle your information. Capsify is published by Capsify ("we", "us"). For privacy questions, contact <a href="mailto:capsifyapp@gmail.com">capsifyapp@gmail.com</a>.</p>
 
     <nav class="toc" aria-label="Contents">
       <ol>
         <li><a href="#glance" data-i18n="pp.glance.h">At a glance</a></li>
-        <li><a href="#device" data-i18n="pp.device.h">Information kept on your device</a></li>
-        <li><a href="#ondevice" data-i18n="pp.ondevice.h">Processing on your device</a></li>
+        <li><a href="#device" data-i18n="pp.device.h">Information on your device</a></li>
+        <li><a href="#photos" data-i18n="pp.photos.h">Photographs and the colour-season quiz</a></li>
         <li><a href="#perm" data-i18n="pp.perm.h">Permissions</a></li>
-        <li><a href="#third" data-i18n="pp.third.h">Information shared with third parties</a></li>
-        <li><a href="#backup" data-i18n="pp.backup.h">Backups and new phones</a></li>
+        <li><a href="#mlkit" data-i18n="pp.mlkit.h">Google ML Kit</a></li>
+        <li><a href="#weather" data-i18n="pp.weather.h">Weather and destinations</a></li>
+        <li><a href="#purchases" data-i18n="pp.purchases.h">Purchases</a></li>
+        <li><a href="#crash" data-i18n="pp.crash.h">App diagnostics from Google Play</a></li>
+        <li><a href="#sharing" data-i18n="pp.sharing.h">Sharing and home-screen widgets</a></li>
+        <li><a href="#backup" data-i18n="pp.backup.h">Android backups and new phones</a></li>
+        <li><a href="#retention" data-i18n="pp.retention.h">Retention, security and deletion</a></li>
         <li><a href="#dont" data-i18n="pp.dont.h">What we never do</a></li>
-        <li><a href="#retention" data-i18n="pp.retention.h">Keeping and deleting your data</a></li>
-        <li><a href="#security" data-i18n="pp.security.h">Security</a></li>
         <li><a href="#rights" data-i18n="pp.rights.h">Your rights</a></li>
-        <li><a href="#children" data-i18n="pp.children.h">Children</a></li>
         <li><a href="#choices" data-i18n="pp.choices.h">Your choices</a></li>
+        <li><a href="#children" data-i18n="pp.children.h">Children</a></li>
         <li><a href="#site" data-i18n="pp.site.h">This website</a></li>
         <li><a href="#changes" data-i18n="pp.changes.h">Changes to this policy</a></li>
         <li><a href="#contact" data-i18n="pp.contact.h">Contact</a></li>
@@ -61,75 +64,87 @@
     <h2 id="glance" data-i18n="pp.glance.h">At a glance</h2>
     <div class="summary">
     <ul>
-      <li data-i18n-html="pp.glance.l1">No account and no sign-in.</li>
-      <li data-i18n-html="pp.glance.l2">No advertising, no analytics and no crash-reporting tools in the app.</li>
-      <li data-i18n-html="pp.glance.l3">Your wardrobe, photos and plans are kept only on your device.</li>
-      <li data-i18n-html="pp.glance.l4">We run no server: we never receive, store or sell your personal data.</li>
-      <li data-i18n-html="pp.glance.l5">The little data that leaves your device goes only to the services listed below, to make specific features work.</li>
+      <li data-i18n-html="pp.glance.l1">No account, no sign-in and no advertising.</li>
+      <li data-i18n-html="pp.glance.l2">Your photos, wardrobe, plans and quiz results are kept in private storage on your device. Capsify runs no server and never receives them.</li>
+      <li data-i18n-html="pp.glance.l3">Photo editing, background removal and colour analysis happen on your device.</li>
+      <li data-i18n-html="pp.glance.l4">Some information does leave your device, only to provide specific features: technical data to Google for ML Kit, a destination's coordinates to MET Norway for weather, and purchase information with Google Play.</li>
+      <li data-i18n-html="pp.glance.l5">Capsify includes no advertising or behavioural-analytics service of its own, and never sells your data.</li>
     </ul>
     </div>
 
-    <h2 id="device" data-i18n="pp.device.h">Information kept on your device</h2>
-    <ul>
-      <li data-i18n-html="pp.device.l1">Wardrobe items and the photos you add, capsules, packing lists, outfit plans and history, your name, your colour-season result, and app settings.</li>
-      <li data-i18n-html="pp.device.l2">Your Premium status, as confirmed by Google Play, so the app keeps working offline for a few days.</li>
-    </ul>
-    <p class="after" data-i18n="pp.device.p">All of this is kept in the app's private storage, which other apps cannot read. It is deleted when you uninstall the app or clear its storage.</p>
+    <h2 id="device" data-i18n="pp.device.h">Information on your device</h2>
+    <p data-i18n-html="pp.device.p1">The app stores your wardrobe photographs, capsule and travel-planning content, your optional name, your saved colour-season result, your settings and your Premium access status in private app storage on your device. It uses this information to provide and personalise its features.</p>
+    <p data-i18n-html="pp.device.p2">Capsify does not upload your photographs, wardrobe content or quiz answers to any Capsify-operated server. Certain information is processed by the services described below.</p>
 
-    <h2 id="ondevice" data-i18n="pp.ondevice.h">Processing on your device</h2>
+    <h2 id="photos" data-i18n="pp.photos.h">Photographs and the colour-season quiz</h2>
     <ul>
-      <li data-i18n-html="pp.ondevice.l1">Background removal runs on your device with Google ML Kit. Your photos are not uploaded.</li>
-      <li data-i18n-html="pp.ondevice.l2">Colour detection, and the selfie analysis in the colour-season quiz, run in the app's own code. The selfie is not saved and nothing is sent anywhere.</li>
-      <li data-i18n-html="pp.ondevice.l3">Searching for a destination uses a list of cities bundled with the app: what you type never leaves your device.</li>
-      <li data-i18n-html="pp.ondevice.l4">Home-screen widgets show your own data; the pictures they need are created and kept on your device.</li>
+      <li data-i18n-html="pp.photos.l1">You choose individual photographs through Android's image picker or take them with the system camera. Capsify does not request access to your whole photo library.</li>
+      <li data-i18n-html="pp.photos.l2">Photograph editing, colour detection and colour-season analysis take place on your device. Background removal uses Google ML Kit, which processes images on the device without sending the photographs or the results to Google's servers.</li>
+      <li data-i18n-html="pp.photos.l3">The optional selfie is used only to analyse colours and suggest quiz answers. It does not identify you and no facial-recognition profile is created. If you save your result, the app stores your colour season and the date you saved it — not the selfie and not your full answers.</li>
+      <li data-i18n-html="pp.photos.l4">Selfies are not kept as profile photographs. Temporary image files may remain in the app's cache until it is cleared. The original photographs in your gallery are never changed.</li>
     </ul>
 
     <h2 id="perm" data-i18n="pp.perm.h">Permissions</h2>
-    <p data-i18n="pp.perm">The app asks Android only for internet access and network state (for weather forecasts, the one-time ML Kit download and Google Play) and for Google Play Billing (for purchases). It does not request access to your camera, photo library, location, contacts or microphone. When you take or choose a photo, Android's own camera or photo picker hands the app only that photo.</p>
+    <p data-i18n-html="pp.perm.p">The app asks Android only for internet access and network state (for weather forecasts, the ML Kit model and Google Play) and for Google Play Billing (for purchases). It does not request access to your camera, photo library, location, contacts or microphone: when you take or choose a photo, Android's own camera or picker hands the app only that photo.</p>
 
-    <h2 id="third" data-i18n="pp.third.h">Information shared with third parties</h2>
-    <ul>
-      <li data-i18n-html="pp.third.l1"><strong>Weather forecasts — MET Norway (api.met.no).</strong> When a trip has a destination, the app sends the coordinates of that city — taken from the app's city list and rounded to four decimal places, never your device's location — to the Norwegian Meteorological Institute to get the forecast. The request also carries the app's name, version and our contact address, as MET Norway requires. Like any web server, MET Norway receives your device's IP address with the request. No identifier about you is sent. See <a href="https://www.met.no/en/free-meteorological-data/privacy-policy">MET Norway's privacy policy</a>.</li>
-      <li data-i18n-html="pp.third.l2"><strong>Google Play services / ML Kit.</strong> The first time background removal is used, Google Play services downloads the ML Kit model. Google ML Kit may collect device and diagnostic information as described at <a href="https://developers.google.com/ml-kit/android-data-disclosure">developers.google.com/ml-kit/android-data-disclosure</a>.</li>
-      <li data-i18n-html="pp.third.l3"><strong>Google Play Billing.</strong> Premium purchases and subscriptions are processed entirely by Google Play. We do not receive your payment details. The app asks Google Play which Capsify products you own to unlock Premium; this information stays on your device. See <a href="https://policies.google.com/privacy">Google's privacy policy</a>.</li>
-      <li data-i18n-html="pp.third.l4"><strong>Google Play crash and performance data.</strong> If you have agreed on your phone to share usage and diagnostics with Google, Google Play may give us anonymous crash reports and performance statistics (Android vitals) through the Play Console. They do not identify you.</li>
-      <li data-i18n-html="pp.third.l5"><strong>Sharing.</strong> When you share an outfit card or a plan, the image is handed to the app you choose in Android's share sheet, and that app's own policy applies.</li>
-    </ul>
+    <h2 id="mlkit" data-i18n="pp.mlkit.h">Google ML Kit</h2>
+    <p data-i18n-html="pp.mlkit.p1">Google Play services may download and update the model that background removal uses.</p>
+    <p data-i18n-html="pp.mlkit.p2">ML Kit sends technical data to Google for diagnostics and usage analytics. This includes device and app information, device or installation identifiers, performance information and information about how the feature works. It does not send the photographs being analysed.</p>
+    <p data-i18n-html="pp.mlkit.p3">See ML Kit's <a href="https://developers.google.com/ml-kit/android-data-disclosure">data disclosure</a> and <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
 
-    <h2 id="backup" data-i18n="pp.backup.h">Backups and new phones</h2>
-    <p data-i18n="pp.backup">If Android backup is enabled on your phone, Android may include the app's data in your personal Google backup (Google Drive) and restore it on a new device. When you move to a new phone with Android's device-to-device transfer, the app's data can be copied across in the same way. These copies are made by Google and Android under your account and settings; we have no access to them. You can turn backup off in Android Settings › Google › Backup.</p>
+    <h2 id="weather" data-i18n="pp.weather.h">Weather and destinations</h2>
+    <p data-i18n-html="pp.weather.p1">Capsify does not access your device's GPS or current location. Destination searches use a city index included in the app, so what you type stays on your device.</p>
+    <p data-i18n-html="pp.weather.p2">To get a forecast, Capsify sends the selected destination's coordinates, rounded to at most four decimal places, directly to MET Norway over HTTPS. The request also includes the app's name and version and the publisher's contact email.</p>
+    <p data-i18n-html="pp.weather.p3">MET Norway also receives your connection's IP address and logs it together with the coordinates in the request. Your photographs, name and quiz answers are never part of weather requests. See <a href="https://www.met.no/en/About-us/privacy">MET Norway's privacy policy</a>.</p>
+
+    <h2 id="purchases" data-i18n="pp.purchases.h">Purchases</h2>
+    <p data-i18n-html="pp.purchases.p1">Google Play processes Premium payments and subscriptions. Capsify never receives your card or bank details.</p>
+    <p data-i18n-html="pp.purchases.p2">The app receives limited purchase information — purchased products, purchase tokens, purchase status and purchase times — to grant and restore Premium access. Purchase tokens are used to acknowledge purchases with Google Play and are not stored by Capsify. A limited record of your Premium access status is kept on your device so Premium keeps working offline for a few days.</p>
+    <p data-i18n-html="pp.purchases.p3">Google keeps its purchase records under its own policies. You can manage or cancel subscriptions in Google Play. Uninstalling Capsify does not cancel a subscription.</p>
+
+    <h2 id="crash" data-i18n="pp.crash.h">App diagnostics from Google Play</h2>
+    <p data-i18n-html="pp.crash.p">If you have agreed on your device to share usage and diagnostics with Google, Google Play may give us anonymous crash reports and performance statistics (Android vitals) through the Play Console. They do not identify you.</p>
+
+    <h2 id="sharing" data-i18n="pp.sharing.h">Sharing and home-screen widgets</h2>
+    <p data-i18n-html="pp.sharing.p1">When you share an outfit card or a plan, Capsify creates an image and passes it to the app or destination you pick in Android's share sheet. The recipient may keep or process that image under its own privacy policy.</p>
+    <p data-i18n-html="pp.sharing.p2">The most recent exported card stays in the app's local storage; Capsify tries to remove earlier exports. Home-screen widgets show images and information generated on your device from your capsules, outfits and weather forecasts.</p>
+
+    <h2 id="backup" data-i18n="pp.backup.h">Android backups and new phones</h2>
+    <p data-i18n-html="pp.backup.p1">Depending on your device and settings, Android may back up the app's records, settings and generated widget images to your personal backup service. Original wardrobe photographs and your own capsule covers, kept in the app's documents folder, are excluded from the cloud backup.</p>
+    <p data-i18n-html="pp.backup.p2">On Android 12 and later, a device-to-device transfer to a new phone may also include wardrobe photographs, your own covers and exported outfit cards.</p>
+    <p data-i18n-html="pp.backup.p3">Android and your backup provider run these backups and transfers. Capsify cannot access your personal Google backup. You can manage backups in your device settings.</p>
+
+    <h2 id="retention" data-i18n="pp.retention.h">Retention, security and deletion</h2>
+    <p data-i18n-html="pp.retention.p1">Information is stored in the app's private Android storage, which other apps cannot read; its protection also depends on your device's operating system and security settings. Weather requests travel over an encrypted (HTTPS) connection.</p>
+    <p data-i18n-html="pp.retention.p2">You can delete wardrobe items, capsules and looks in the app. Earlier information may remain for a while in local recovery copies, temporary files or exported images.</p>
+    <p data-i18n-html="pp.retention.p3">Clearing the app's storage or uninstalling Capsify removes its local data. It does not delete the original photographs in your gallery, images you have already shared, external backups, or records held by Google Play and other providers. Restoring a backup may bring back previously saved information.</p>
+    <p data-i18n-html="pp.retention.p4">Third-party services keep information according to their own policies. Capsify keeps none on its own servers, because it has none.</p>
 
     <h2 id="dont" data-i18n="pp.dont.h">What we never do</h2>
     <ul>
       <li data-i18n-html="pp.dont.l1">We do not sell, rent or trade your personal data.</li>
       <li data-i18n-html="pp.dont.l2">We do not show ads or use advertising identifiers.</li>
       <li data-i18n-html="pp.dont.l3">We do not track you across apps or websites or build a profile of you.</li>
-      <li data-i18n-html="pp.dont.l4">We do not use your location, contacts or microphone.</li>
+      <li data-i18n-html="pp.dont.l4">We do not use facial recognition, your location, your contacts or your microphone.</li>
     </ul>
 
-    <h2 id="retention" data-i18n="pp.retention.h">Keeping and deleting your data</h2>
-    <p data-i18n="pp.retention">Your data stays on your device for as long as you keep it. Deleting an item, a capsule or a look in the app removes it; uninstalling the app or clearing its storage removes everything. Copies in your Google backup follow your Google account's settings. We keep nothing, because we never receive it.</p>
-
-    <h2 id="security" data-i18n="pp.security.h">Security</h2>
-    <p data-i18n="pp.security">Android's app sandbox protects your data: only Capsify can read its private storage. Weather requests travel over an encrypted (HTTPS) connection. Payments are handled by Google Play, so your payment details never reach the app.</p>
-
     <h2 id="rights" data-i18n="pp.rights.h">Your rights</h2>
-    <p data-i18n="pp.rights">Depending on where you live — for example under the EU and UK GDPR or California law — you may have the right to access, correct, delete or export your personal data and to object to its use. Because we do not receive or store your personal data, you exercise these rights directly in the app, by editing or deleting your information, or by uninstalling it. For data handled by Google or MET Norway, their own policies apply. You can always contact us, and you have the right to complain to your local data-protection authority.</p>
-
-    <h2 id="children" data-i18n="pp.children.h">Children</h2>
-    <p data-i18n="pp.children">Capsify is not directed at children under 13, and we do not knowingly collect information from them — the app does not send personal data to us from anyone.</p>
+    <p data-i18n-html="pp.rights.p">Depending on where you live — for example under the EU and UK GDPR or California law — you may have the right to access, correct, delete or export your personal data and to object to its use. Because Capsify does not hold your data on a server, you exercise these rights directly in the app, by editing or deleting your information, or by uninstalling it. For data handled by Google or MET Norway, their own policies apply. You can always contact us, and you have the right to complain to your local data-protection authority.</p>
 
     <h2 id="choices" data-i18n="pp.choices.h">Your choices</h2>
-    <p data-i18n="pp.choices">You can edit or delete items, capsules and looks in the app at any time, or remove all data by uninstalling it. To cancel a subscription, use Google Play › Payments &amp; subscriptions.</p>
+    <p data-i18n-html="pp.choices.p">You can skip the optional name, take the colour-season quiz without a selfie, choose which photographs to add, and decide whether to share images or add home-screen widgets. You can edit or delete items, capsules and looks at any time, and cancel a subscription in Google Play › Payments & subscriptions.</p>
+
+    <h2 id="children" data-i18n="pp.children.h">Children</h2>
+    <p data-i18n-html="pp.children.p">Capsify is not directed at children under 13, and we do not knowingly collect information from them.</p>
 
     <h2 id="site" data-i18n="pp.site.h">This website</h2>
-    <p data-i18n-html="pp.site">This website uses no cookies, no analytics and no advertising, and loads no fonts or scripts from other companies. It remembers the language you pick in your browser's local storage, which stays on your device. The site is hosted on GitHub Pages; like any web host, GitHub processes visitors' IP addresses to deliver and protect the site, as described in the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
+    <p data-i18n-html="pp.site.p">This website uses no cookies, no analytics and no advertising, and loads no fonts or scripts from other companies. It remembers the language you pick in your browser's local storage, which stays on your device. The site is hosted on GitHub Pages; like any web host, GitHub processes visitors' IP addresses to deliver and protect the site, as described in the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
 
     <h2 id="changes" data-i18n="pp.changes.h">Changes to this policy</h2>
-    <p data-i18n="pp.changes">If the way the app or this website handles information changes, we will update this page and the "Last updated" date above before the change takes effect.</p>
+    <p data-i18n-html="pp.changes.p">We will update this policy when the app's data handling changes and revise the date above.</p>
 
     <h2 id="contact" data-i18n="pp.contact.h">Contact</h2>
-    <p data-i18n-html="pp.contact">Questions or requests about privacy: <a href="mailto:capsifyapp@gmail.com">capsifyapp@gmail.com</a>.</p>
+    <p data-i18n-html="pp.contact.p">For privacy questions or requests, contact <a href="mailto:capsifyapp@gmail.com">capsifyapp@gmail.com</a>.</p>
 
     <p style="margin-top:48px"><a href="../" data-i18n="pp.back">← Back to Capsify</a></p>
   </article>
